@@ -53,7 +53,7 @@ body{
     color: #85507D;
 }
 .items{
-    padding: 15px 20px 60px 20px;
+    padding: 15px 20px 50px 20px;
 }
 .item-1,.item-2{
     display: flex;
@@ -74,6 +74,7 @@ body{
     justify-content: flex-end;
     margin-top: .5em;
     color: #f3ad5c;
+    font-size: 1.3rem;
 }
 .need-invoice{
     display: flex;
