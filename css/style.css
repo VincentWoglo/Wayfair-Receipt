@@ -125,8 +125,8 @@ body{
     margin-top: .5em;
 }
 .img{
-    width: 200px;
-    height: 20vh;
+    width: 18vw;
+    height: 25vh;
 }
 .product-price{
     background-color: #f3ad5c;
@@ -139,6 +139,7 @@ body{
 .more-products{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     width: 90%;
     margin: auto;
@@ -158,4 +159,52 @@ body{
     background-color: #85507d;
     color: #fff;
     cursor: pointer;
+}
+
+
+@media only screen and (max-width: 960px) {
+    .more-products{
+        flex-direction: column;
+    }
+    .more-item{
+        margin: auto;
+        margin-bottom: 2em;
+    }
+    .img{
+    width: 40vw;
+    height: 40vh;
+}
+
+.product-description{
+    width: 40vw;
+    margin: auto;
+    margin-top: .5em;
+}
+}
+@media only screen and (max-width: 636px) {
+    .img{
+    width: 50vw;
+    height: 40vh;
+}
+}
+@media only screen and (max-width: 508px) {
+    .img{
+    width: 50vw;
+    height: 30vh;
+}
+.visit-wayfair-btn{
+    padding: 10px 20px;
+}
+}
+
+@media only screen and (max-width: 386px){
+    .visit-wayfair-btn{
+    padding: 10px 5px;
+}
+}
+
+@media only screen and (max-width: 414px){
+    .item-2-desc{
+        width: 150px;
+    }
 }
